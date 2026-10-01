@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>be.itassist</groupId>
+        <artifactId>itassist</artifactId>
+        <version>0.4.0</version>
+    </parent>
+
+    <artifactId>itassist-domain</artifactId>
+    <name>IT-Assist — domaine</name>
+    <description>Règles métier. Aucune dépendance à l'infrastructure : ni Spring, ni Jackson.</description>
+
+    <dependencies>
+        <!-- Tests uniquement. Version gérée par le parent Spring Boot (JUnit 6). -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

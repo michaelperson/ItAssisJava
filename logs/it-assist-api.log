@@ -1,0 +1,315 @@
+2026-09-04 06:52:11.000 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 5187 (http) with context path '/'
+2026-09-04 06:52:11.180 INFO  be.itassist.api.ItAssistApplication Started ItAssistApplication in 1.934 seconds (process running for 2.312)
+2026-09-04 06:52:11.270 INFO  be.itassist.api.ItAssistApplication No active profile set, falling back to 1 default profile: "default"
+2026-09-04 06:52:14.680 INFO  be.itassist.api.infrastructure.JournalConsole Depot charge | chemin=/srv/it-assist/data/tickets.jsonl | tickets=252
+2026-09-04 06:52:18.009 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0057/escalade", parameters={}
+2026-09-04 06:52:18.012 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0057 | priorite=Normale | engagement=5 | joursOuvresEcoules=32 | escalade=true
+2026-09-04 06:52:18.019 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0057 | escalade=true
+2026-09-04 06:52:18.025 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:52:38.621 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0247/escalade", parameters={}
+2026-09-04 06:52:38.630 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0247 | priorite=Normale | engagement=5 | joursOuvresEcoules=3 | escalade=false
+2026-09-04 06:52:38.639 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0247 | escalade=false
+2026-09-04 06:52:38.645 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:53:20.427 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0038/escalade", parameters={}
+2026-09-04 06:53:20.444 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0038 | priorite=Critique | engagement=2 | joursOuvresEcoules=134 | escalade=true
+2026-09-04 06:53:20.451 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0038 | escalade=true
+2026-09-04 06:53:20.453 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:53:58.259 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0095/escalade", parameters={}
+2026-09-04 06:53:58.274 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0095 | priorite=Haute | engagement=1 | joursOuvresEcoules=34 | escalade=true
+2026-09-04 06:53:58.282 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0095 | escalade=true
+2026-09-04 06:53:58.285 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:54:28.085 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0047/escalade", parameters={}
+2026-09-04 06:54:28.092 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0047 | priorite=Normale | engagement=5 | joursOuvresEcoules=65 | escalade=true
+2026-09-04 06:54:28.094 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0047 | escalade=true
+2026-09-04 06:54:28.098 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:55:05.617 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0218/escalade", parameters={}
+2026-09-04 06:55:05.632 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0218 | priorite=Normale | engagement=5 | joursOuvresEcoules=119 | escalade=true
+2026-09-04 06:55:05.637 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0218 | escalade=true
+2026-09-04 06:55:05.640 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:55:13.640 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 06:55:34.094 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0002/escalade", parameters={}
+2026-09-04 06:55:34.120 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0002 | priorite=Critique | engagement=2 | joursOuvresEcoules=84 | escalade=true
+2026-09-04 06:55:34.128 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0002 | escalade=true
+2026-09-04 06:55:34.131 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:55:58.099 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0104/escalade", parameters={}
+2026-09-04 06:55:58.112 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0104 | priorite=Normale | engagement=5 | joursOuvresEcoules=139 | escalade=true
+2026-09-04 06:55:58.120 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0104 | escalade=true
+2026-09-04 06:55:58.125 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:56:07.125 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 06:56:19.816 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0059/escalade", parameters={}
+2026-09-04 06:56:19.820 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0059 | priorite=Basse | engagement=10 | joursOuvresEcoules=34 | escalade=true
+2026-09-04 06:56:19.824 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0059 | escalade=true
+2026-09-04 06:56:19.828 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:56:50.239 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0246/escalade", parameters={}
+2026-09-04 06:56:50.247 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0246 | priorite=Haute | engagement=1 | joursOuvresEcoules=2 | escalade=true
+2026-09-04 06:56:50.251 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0246 | escalade=true
+2026-09-04 06:56:50.257 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:57:03.368 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0034/escalade", parameters={}
+2026-09-04 06:57:03.396 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0034 | priorite=Normale | engagement=5 | joursOuvresEcoules=84 | escalade=true
+2026-09-04 06:57:03.404 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0034 | escalade=true
+2026-09-04 06:57:03.410 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:57:36.484 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0064/escalade", parameters={}
+2026-09-04 06:57:36.507 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0064 | priorite=Normale | engagement=5 | joursOuvresEcoules=134 | escalade=true
+2026-09-04 06:57:36.512 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0064 | escalade=true
+2026-09-04 06:57:36.516 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:57:44.343 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0102/escalade", parameters={}
+2026-09-04 06:57:44.360 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0102 | priorite=Basse | engagement=10 | joursOuvresEcoules=144 | escalade=true
+2026-09-04 06:57:44.369 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0102 | escalade=true
+2026-09-04 06:57:44.372 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:58:09.599 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0243/escalade", parameters={}
+2026-09-04 06:58:09.612 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0243 | priorite=Critique | engagement=2 | joursOuvresEcoules=2 | escalade=false
+2026-09-04 06:58:09.618 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0243 | escalade=false
+2026-09-04 06:58:09.624 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:58:36.535 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0050/escalade", parameters={}
+2026-09-04 06:58:36.546 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0050 | priorite=Normale | engagement=5 | joursOuvresEcoules=89 | escalade=true
+2026-09-04 06:58:36.548 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0050 | escalade=true
+2026-09-04 06:58:36.551 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:58:42.551 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 06:58:55.612 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0129/escalade", parameters={}
+2026-09-04 06:58:55.639 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0129 | priorite=Normale | engagement=5 | joursOuvresEcoules=145 | escalade=true
+2026-09-04 06:58:55.641 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0129 | escalade=true
+2026-09-04 06:58:55.647 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:59:33.193 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0019/escalade", parameters={}
+2026-09-04 06:59:33.221 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0019 | priorite=Normale | engagement=5 | joursOuvresEcoules=124 | escalade=true
+2026-09-04 06:59:33.227 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0019 | escalade=true
+2026-09-04 06:59:33.232 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:59:38.135 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0252/escalade", parameters={}
+2026-09-04 06:59:38.142 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0252 | priorite=Basse | engagement=10 | joursOuvresEcoules=4 | escalade=false
+2026-09-04 06:59:38.145 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0252 | escalade=false
+2026-09-04 06:59:38.146 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 06:59:47.161 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0232/escalade", parameters={}
+2026-09-04 06:59:47.173 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0232 | priorite=Critique | engagement=2 | joursOuvresEcoules=63 | escalade=true
+2026-09-04 06:59:47.178 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0232 | escalade=true
+2026-09-04 06:59:47.184 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:00:19.167 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0139/escalade", parameters={}
+2026-09-04 07:00:19.195 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0139 | priorite=Normale | engagement=5 | joursOuvresEcoules=103 | escalade=true
+2026-09-04 07:00:19.203 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0139 | escalade=true
+2026-09-04 07:00:19.204 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:00:49.085 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0167/escalade", parameters={}
+2026-09-04 07:00:49.089 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0167 | priorite=Basse | engagement=10 | joursOuvresEcoules=144 | escalade=true
+2026-09-04 07:00:49.092 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0167 | escalade=true
+2026-09-04 07:00:49.098 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:01:22.532 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0052/escalade", parameters={}
+2026-09-04 07:01:22.561 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0052 | priorite=Critique | engagement=2 | joursOuvresEcoules=49 | escalade=true
+2026-09-04 07:01:22.565 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0052 | escalade=true
+2026-09-04 07:01:22.569 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:02:02.535 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0053/escalade", parameters={}
+2026-09-04 07:02:02.552 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0053 | priorite=Haute | engagement=1 | joursOuvresEcoules=124 | escalade=true
+2026-09-04 07:02:02.553 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0053 | escalade=true
+2026-09-04 07:02:02.556 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:02:12.586 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0189/escalade", parameters={}
+2026-09-04 07:02:12.600 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0189 | priorite=Critique | engagement=2 | joursOuvresEcoules=25 | escalade=true
+2026-09-04 07:02:12.605 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0189 | escalade=true
+2026-09-04 07:02:12.608 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:02:21.550 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0131/escalade", parameters={}
+2026-09-04 07:02:21.568 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0131 | priorite=Normale | engagement=5 | joursOuvresEcoules=47 | escalade=true
+2026-09-04 07:02:21.573 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0131 | escalade=true
+2026-09-04 07:02:21.575 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:02:29.183 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0011/escalade", parameters={}
+2026-09-04 07:02:29.213 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0011 | priorite=Normale | engagement=5 | joursOuvresEcoules=113 | escalade=true
+2026-09-04 07:02:29.217 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0011 | escalade=true
+2026-09-04 07:02:29.219 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:03:12.254 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0179/escalade", parameters={}
+2026-09-04 07:03:12.277 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0179 | priorite=Critique | engagement=2 | joursOuvresEcoules=48 | escalade=true
+2026-09-04 07:03:12.284 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0179 | escalade=true
+2026-09-04 07:03:12.289 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:03:57.699 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0250/escalade", parameters={}
+2026-09-04 07:03:57.713 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0250 | priorite=Haute | engagement=1 | joursOuvresEcoules=1 | escalade=false
+2026-09-04 07:03:57.716 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0250 | escalade=false
+2026-09-04 07:03:57.718 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:04:04.530 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0015/escalade", parameters={}
+2026-09-04 07:04:04.538 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0015 | priorite=Normale | engagement=5 | joursOuvresEcoules=4 | escalade=false
+2026-09-04 07:04:04.546 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0015 | escalade=false
+2026-09-04 07:04:04.548 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:04:09.890 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0153/escalade", parameters={}
+2026-09-04 07:04:09.909 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0153 | priorite=Normale | engagement=5 | joursOuvresEcoules=62 | escalade=true
+2026-09-04 07:04:09.917 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0153 | escalade=true
+2026-09-04 07:04:09.921 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:04:48.573 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0248/escalade", parameters={}
+2026-09-04 07:04:48.585 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0248 | priorite=Normale | engagement=5 | joursOuvresEcoules=1 | escalade=false
+2026-09-04 07:04:48.589 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0248 | escalade=false
+2026-09-04 07:04:48.592 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:05:23.950 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0137/escalade", parameters={}
+2026-09-04 07:05:23.969 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0137 | priorite=Normale | engagement=5 | joursOuvresEcoules=173 | escalade=true
+2026-09-04 07:05:23.970 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0137 | escalade=true
+2026-09-04 07:05:23.972 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:05:46.998 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0170/escalade", parameters={}
+2026-09-04 07:05:47.013 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0170 | priorite=Normale | engagement=5 | joursOuvresEcoules=148 | escalade=true
+2026-09-04 07:05:47.018 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0170 | escalade=true
+2026-09-04 07:05:47.021 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:06:05.951 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0056/escalade", parameters={}
+2026-09-04 07:06:05.967 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0056 | priorite=Critique | engagement=2 | joursOuvresEcoules=134 | escalade=true
+2026-09-04 07:06:05.973 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0056 | escalade=true
+2026-09-04 07:06:05.979 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:06:13.625 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0203/escalade", parameters={}
+2026-09-04 07:06:13.653 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0203 | priorite=Basse | engagement=10 | joursOuvresEcoules=35 | escalade=true
+2026-09-04 07:06:13.659 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0203 | escalade=true
+2026-09-04 07:06:13.661 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:06:55.468 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0066/escalade", parameters={}
+2026-09-04 07:06:55.497 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0066 | priorite=Critique | engagement=2 | joursOuvresEcoules=149 | escalade=true
+2026-09-04 07:06:55.506 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0066 | escalade=true
+2026-09-04 07:06:55.508 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:07:07.508 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:07:49.341 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0049/escalade", parameters={}
+2026-09-04 07:07:49.370 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0049 | priorite=Haute | engagement=1 | joursOuvresEcoules=152 | escalade=true
+2026-09-04 07:07:49.375 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0049 | escalade=true
+2026-09-04 07:07:49.380 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:07:59.375 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0096/escalade", parameters={}
+2026-09-04 07:07:59.377 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0096 | priorite=Haute | engagement=1 | joursOuvresEcoules=135 | escalade=true
+2026-09-04 07:07:59.386 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0096 | escalade=true
+2026-09-04 07:07:59.391 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:08:35.575 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0085/escalade", parameters={}
+2026-09-04 07:08:35.589 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0085 | priorite=Normale | engagement=5 | joursOuvresEcoules=69 | escalade=true
+2026-09-04 07:08:35.590 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0085 | escalade=true
+2026-09-04 07:08:35.595 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:08:45.595 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:09:11.709 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0147/escalade", parameters={}
+2026-09-04 07:09:11.712 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0147 | priorite=Critique | engagement=2 | joursOuvresEcoules=142 | escalade=true
+2026-09-04 07:09:11.713 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0147 | escalade=true
+2026-09-04 07:09:11.716 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:09:25.112 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0178/escalade", parameters={}
+2026-09-04 07:09:25.119 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0178 | priorite=Critique | engagement=2 | joursOuvresEcoules=11 | escalade=true
+2026-09-04 07:09:25.128 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0178 | escalade=true
+2026-09-04 07:09:25.131 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:09:26.131 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:09:29.381 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0183/escalade", parameters={}
+2026-09-04 07:09:29.403 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0183 | priorite=Normale | engagement=5 | joursOuvresEcoules=96 | escalade=true
+2026-09-04 07:09:29.405 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0183 | escalade=true
+2026-09-04 07:09:29.408 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:10:07.288 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0172/escalade", parameters={}
+2026-09-04 07:10:07.312 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0172 | priorite=Normale | engagement=5 | joursOuvresEcoules=90 | escalade=true
+2026-09-04 07:10:07.319 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0172 | escalade=true
+2026-09-04 07:10:07.320 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:10:15.282 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0149/escalade", parameters={}
+2026-09-04 07:10:15.303 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0149 | priorite=Normale | engagement=5 | joursOuvresEcoules=125 | escalade=true
+2026-09-04 07:10:15.307 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0149 | escalade=true
+2026-09-04 07:10:15.308 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:10:29.809 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0003/escalade", parameters={}
+2026-09-04 07:10:29.837 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0003 | priorite=Haute | engagement=1 | joursOuvresEcoules=41 | escalade=true
+2026-09-04 07:10:29.842 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0003 | escalade=true
+2026-09-04 07:10:29.846 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:10:33.846 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:10:53.217 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0221/escalade", parameters={}
+2026-09-04 07:10:53.224 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0221 | priorite=Critique | engagement=2 | joursOuvresEcoules=21 | escalade=true
+2026-09-04 07:10:53.229 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0221 | escalade=true
+2026-09-04 07:10:53.231 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:11:06.075 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0192/escalade", parameters={}
+2026-09-04 07:11:06.099 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0192 | priorite=Normale | engagement=5 | joursOuvresEcoules=121 | escalade=true
+2026-09-04 07:11:06.107 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0192 | escalade=true
+2026-09-04 07:11:06.111 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:11:45.660 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0014/escalade", parameters={}
+2026-09-04 07:11:45.662 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0014 | priorite=Normale | engagement=5 | joursOuvresEcoules=41 | escalade=true
+2026-09-04 07:11:45.665 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0014 | escalade=true
+2026-09-04 07:11:45.669 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:12:09.063 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0087/escalade", parameters={}
+2026-09-04 07:12:09.069 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0087 | priorite=Critique | engagement=2 | joursOuvresEcoules=149 | escalade=true
+2026-09-04 07:12:09.075 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0087 | escalade=true
+2026-09-04 07:12:09.078 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:12:38.289 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0061/escalade", parameters={}
+2026-09-04 07:12:38.292 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0061 | priorite=Haute | engagement=1 | joursOuvresEcoules=107 | escalade=true
+2026-09-04 07:12:38.299 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0061 | escalade=true
+2026-09-04 07:12:38.303 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:12:45.403 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0089/escalade", parameters={}
+2026-09-04 07:12:45.405 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0089 | priorite=Critique | engagement=2 | joursOuvresEcoules=124 | escalade=true
+2026-09-04 07:12:45.408 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0089 | escalade=true
+2026-09-04 07:12:45.414 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:13:13.415 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0086/escalade", parameters={}
+2026-09-04 07:13:13.436 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0086 | priorite=Critique | engagement=2 | joursOuvresEcoules=144 | escalade=true
+2026-09-04 07:13:13.445 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0086 | escalade=true
+2026-09-04 07:13:13.451 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:13:45.916 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0199/escalade", parameters={}
+2026-09-04 07:13:45.938 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0199 | priorite=Critique | engagement=2 | joursOuvresEcoules=147 | escalade=true
+2026-09-04 07:13:45.944 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0199 | escalade=true
+2026-09-04 07:13:45.948 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:14:19.488 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0106/escalade", parameters={}
+2026-09-04 07:14:19.491 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0106 | priorite=Critique | engagement=2 | joursOuvresEcoules=88 | escalade=true
+2026-09-04 07:14:19.499 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0106 | escalade=true
+2026-09-04 07:14:19.500 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:14:55.960 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0237/escalade", parameters={}
+2026-09-04 07:14:55.976 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0237 | priorite=Basse | engagement=10 | joursOuvresEcoules=35 | escalade=true
+2026-09-04 07:14:55.980 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0237 | escalade=true
+2026-09-04 07:14:55.982 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:15:15.391 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0124/escalade", parameters={}
+2026-09-04 07:15:15.409 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0124 | priorite=Critique | engagement=2 | joursOuvresEcoules=127 | escalade=true
+2026-09-04 07:15:15.415 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0124 | escalade=true
+2026-09-04 07:15:15.418 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:15:18.643 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0101/escalade", parameters={}
+2026-09-04 07:15:18.669 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0101 | priorite=Haute | engagement=1 | joursOuvresEcoules=59 | escalade=true
+2026-09-04 07:15:18.670 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0101 | escalade=true
+2026-09-04 07:15:18.676 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:15:53.979 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0161/escalade", parameters={}
+2026-09-04 07:15:54.000 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0161 | priorite=Critique | engagement=2 | joursOuvresEcoules=106 | escalade=true
+2026-09-04 07:15:54.007 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0161 | escalade=true
+2026-09-04 07:15:54.010 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:16:06.010 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:16:24.261 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0076/escalade", parameters={}
+2026-09-04 07:16:24.266 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0076 | priorite=Haute | engagement=1 | joursOuvresEcoules=119 | escalade=true
+2026-09-04 07:16:24.268 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0076 | escalade=true
+2026-09-04 07:16:24.274 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:16:44.668 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0200/escalade", parameters={}
+2026-09-04 07:16:44.694 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0200 | priorite=Haute | engagement=1 | joursOuvresEcoules=129 | escalade=true
+2026-09-04 07:16:44.699 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0200 | escalade=true
+2026-09-04 07:16:44.700 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:17:04.129 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0033/escalade", parameters={}
+2026-09-04 07:17:04.135 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0033 | priorite=Critique | engagement=2 | joursOuvresEcoules=34 | escalade=true
+2026-09-04 07:17:04.139 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0033 | escalade=true
+2026-09-04 07:17:04.145 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:17:25.629 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0180/escalade", parameters={}
+2026-09-04 07:17:25.658 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0180 | priorite=Critique | engagement=2 | joursOuvresEcoules=74 | escalade=true
+2026-09-04 07:17:25.667 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0180 | escalade=true
+2026-09-04 07:17:25.672 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:17:45.800 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0039/escalade", parameters={}
+2026-09-04 07:17:45.821 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0039 | priorite=Haute | engagement=1 | joursOuvresEcoules=139 | escalade=true
+2026-09-04 07:17:45.828 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0039 | escalade=true
+2026-09-04 07:17:45.830 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:17:48.522 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0188/escalade", parameters={}
+2026-09-04 07:17:48.551 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0188 | priorite=Normale | engagement=5 | joursOuvresEcoules=157 | escalade=true
+2026-09-04 07:17:48.557 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0188 | escalade=true
+2026-09-04 07:17:48.563 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:17:52.923 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0075/escalade", parameters={}
+2026-09-04 07:17:52.946 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0075 | priorite=Basse | engagement=10 | joursOuvresEcoules=33 | escalade=true
+2026-09-04 07:17:52.951 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0075 | escalade=true
+2026-09-04 07:17:52.957 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:18:26.500 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0224/escalade", parameters={}
+2026-09-04 07:18:26.511 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0224 | priorite=Basse | engagement=10 | joursOuvresEcoules=40 | escalade=true
+2026-09-04 07:18:26.519 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0224 | escalade=true
+2026-09-04 07:18:26.525 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:18:43.655 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0010/escalade", parameters={}
+2026-09-04 07:18:43.666 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0010 | priorite=Normale | engagement=5 | joursOuvresEcoules=97 | escalade=true
+2026-09-04 07:18:43.668 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0010 | escalade=true
+2026-09-04 07:18:43.671 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:18:51.791 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0109/escalade", parameters={}
+2026-09-04 07:18:51.812 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0109 | priorite=Normale | engagement=5 | joursOuvresEcoules=29 | escalade=true
+2026-09-04 07:18:51.815 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0109 | escalade=true
+2026-09-04 07:18:51.817 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:19:24.125 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0028/escalade", parameters={}
+2026-09-04 07:19:24.133 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0028 | priorite=Critique | engagement=2 | joursOuvresEcoules=100 | escalade=true
+2026-09-04 07:19:24.138 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0028 | escalade=true
+2026-09-04 07:19:24.142 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:19:51.714 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0212/escalade", parameters={}
+2026-09-04 07:19:51.720 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0212 | priorite=Critique | engagement=2 | joursOuvresEcoules=142 | escalade=true
+2026-09-04 07:19:51.725 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0212 | escalade=true
+2026-09-04 07:19:51.727 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:19:55.727 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:20:11.743 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0022/escalade", parameters={}
+2026-09-04 07:20:11.751 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0022 | priorite=Normale | engagement=5 | joursOuvresEcoules=49 | escalade=true
+2026-09-04 07:20:11.759 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0022 | escalade=true
+2026-09-04 07:20:11.761 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:20:50.801 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0215/escalade", parameters={}
+2026-09-04 07:20:50.809 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0215 | priorite=Basse | engagement=10 | joursOuvresEcoules=163 | escalade=true
+2026-09-04 07:20:50.810 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0215 | escalade=true
+2026-09-04 07:20:50.813 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:21:11.191 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0241/escalade", parameters={}
+2026-09-04 07:21:11.205 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0241 | priorite=Critique | engagement=2 | joursOuvresEcoules=2 | escalade=false
+2026-09-04 07:21:11.208 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0241 | escalade=false
+2026-09-04 07:21:11.211 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:21:22.211 WARN  be.itassist.api.infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:21:48.345 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/tickets/INC-2026-0173/escalade", parameters={}
+2026-09-04 07:21:48.373 INFO  be.itassist.api.infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0173 | priorite=Normale | engagement=5 | joursOuvresEcoules=73 | escalade=true
+2026-09-04 07:21:48.378 INFO  be.itassist.api.infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0173 | escalade=true
+2026-09-04 07:21:48.383 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:26:00.383 DEBUG o.s.web.servlet.DispatcherServlet GET "/api/rapports/mensuel", parameters={mois:[8], annee:[2026]}
+2026-09-04 07:26:01.195 DEBUG o.s.web.servlet.DispatcherServlet Completed 200 OK
+2026-09-04 07:28:39.195 ERROR be.itassist.api.infrastructure.JournalConsole Fichier de tickets absent | chemin=/srv/it-assist/data/tickets.jsonl
+2026-09-04 07:28:39.209 DEBUG o.s.web.servlet.DispatcherServlet Completed 503 SERVICE_UNAVAILABLE
+2026-09-04 07:37:44.209 WARN  be.itassist.astreinte.Signalements Signalement support N1 : deux tickets critiques ouverts depuis mardi ne sont pas remontes a l'astreinte, alors qu'un ticket de priorite haute ouvert le meme jour l'a ete.

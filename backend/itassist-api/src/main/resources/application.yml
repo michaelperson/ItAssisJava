@@ -1,0 +1,24 @@
+server:
+  port: 5187
+
+spring:
+  application:
+    name: it-assist-api
+  threads:
+    virtual:
+      enabled: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: WARN
+
+# Chemin relatif au dossier de lancement (backend/itassist-api avec
+# « mvn spring-boot:run »). Surchargeable : --tickets.chemin=/srv/...
+tickets:
+  chemin: ../../data/tickets.jsonl
+
+# Documentation interactive (springdoc) : http://localhost:5187/swagger-ui.html
+springdoc:
+  api-docs:
+    path: /openapi/v1.json
